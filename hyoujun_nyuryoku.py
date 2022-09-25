@@ -15,10 +15,6 @@ for item in 'one two three'.split():
 # コード例(2)リスト内包表記
 [print(item) for item in 'one two three'.split()]
 
-l = ['1', '2', '3']
-print(type(map(int, l)))
-print(list(map(int, l)))
-
 # 3.整数半角スペース区切り
 # 入力
 i = 123 456 789
